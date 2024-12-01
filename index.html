@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div at the Center and some other things</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">I like my Suitcase</a>
+    <a href="divCenter.html">Put this Div at the Center</a>
+    <a href="politics.html">Politics</a>
+    <a href="whereItStarted.html">It Started Here</a>
+</nav>
+
+<section>
+    <div id="playAreaSuit">
+        <div id="targetSuit"></div>
+        <div id="movableSuit"></div>
+    </div>
+    <div id="successSuit">
+        <button id="claimPrizeButton" onclick="claimPrize()">Claim Your Prize</button>
+        <video id="prizeVideo" muted autoplay hidden>
+            <source src="Suitcase.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="controlsSuit">
+        <p>Move the suitcase to the center of the Blackhole</p>
+        X: <label for="xPosSuit"></label><input type="number" id="xPosSuit">
+        Y: <label for="yPosSuit"></label><input type="number" id="yPosSuit">
+        <button onclick="moveDiv()">Move</button>
+    </div>
+</section>
+
+<script src="scriptSuitcase.js"></script>
+</body>
+</html>

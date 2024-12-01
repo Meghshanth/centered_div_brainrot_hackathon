@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div at the Center and some other things</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">I like my Suitcase</a>
+    <a href="divCenter.html">Put this Div at the Center</a>
+    <a href="politics.html">Politics</a>
+    <a href="whereItStarted.html">It Started Here</a>
+</nav>
+<section>
+    <div id="playAreaDiv">
+        <div id="targetDiv"></div>
+        <div id="movableDiv"></div>
+        <div id="successDiv">Success!</div>
+    </div>
+    <div id="controlsDiv">
+        X: <label for="xPosDiv"></label><input type="number" id="xPosDiv">
+        Y: <label for="yPosDiv"></label><input type="number" id="yPosDiv">
+        <button onclick="moveDiv()">Move</button>
+    </div>
+</section>
+
+<script src="scriptDivCenter.js"></script>
+</body>
+</html>
