@@ -6,7 +6,7 @@ const claimPrizeButton = document.getElementById('claimPrizeButton');
 const prizeVideo = document.getElementById('prizeVideo');
 
 // Random initial position and size
-const randomSizeSuit = Math.floor(Math.random() * 91) + 60; // Between 60 and 150px
+const randomSizeSuit = Math.floor(Math.random() * 61) + 30; // Between 30 and 90px
 div.style.width = randomSizeSuit + 'px';
 div.style.height = randomSizeSuit + 'px';
 target.style.width = randomSizeSuit + 'px';
